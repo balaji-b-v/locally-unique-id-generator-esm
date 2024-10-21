@@ -1,5 +1,5 @@
 {
-  "name": "locally-unique-id-generator",
+  "name": "locally-unique-id-generator-esm",
   "version": "0.1.8",
   "description": "trivial generator for ids which are unique within an application",
   "main": "./dist/locally-unique-id-generator.umd.js",
@@ -22,17 +22,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rozek/locally-unique-id-generator.git"
+    "url": "git+https://github.com/balaji-b-v/locally-unique-id-generator-esm.git"
   },
   "keywords": [
     "unique-id"
   ],
-  "author": "Andreas Rozek <a.rozek@gmx.de> (https://www.rozek.de/)",
+  "author": "Balaji Venkatesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rozek/locally-unique-id-generator/issues"
+    "url": "https://github.com/balaji-b-v/locally-unique-id-generator-esm/issues"
   },
-  "homepage": "https://github.com/rozek/locally-unique-id-generator#readme",
+  "homepage": "https://github.com/balaji-b-v/locally-unique-id-generator-esm#readme",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^8.2.1",
@@ -40,5 +40,6 @@
     "rollup": "^2.52.3",
     "tslib": "^2.7.0",
     "typescript": "^5.5.4"
-  }
+  },
+  "type": "module"
 }
